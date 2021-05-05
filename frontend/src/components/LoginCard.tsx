@@ -17,7 +17,7 @@ const LoginCard: FC = () => {
 
   return (
     <div>
-      <p>Log in with google? <a href="/api/auth/google">Click here</a></p>
+      <p>Log in with google? <a href="https://practice-social-mern.herokuapp.com/api/auth/google">Click here</a></p>
     </div>
   )
 }
