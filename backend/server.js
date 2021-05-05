@@ -28,7 +28,7 @@ const passport = require('passport')
 
 const cookieSession = require('cookie-session')
 
-const isLoggedIn = require('./Middleware/auth')
+const isLoggedIn = require('./middleware/auth.js')
 
 app.use(morgan('dev'))
 
