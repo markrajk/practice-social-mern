@@ -17,7 +17,7 @@ const LoginCard: FC = () => {
 
   return (
     <div>
-      <p>Log in with google? <a href="http://localhost:5000/api/auth/google">Click here</a></p>
+      <p>Log in with google? <a href="/api/auth/google">Click here</a></p>
     </div>
   )
 }
