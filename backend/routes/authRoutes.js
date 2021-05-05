@@ -14,9 +14,9 @@ router
     passport.authenticate('google', { failureRedirect: '/login' }),
     function (req, res) {
       if (req.user) {
-        res.redirect(`http://localhost:3000/`)
+        res.redirect(`https://practice-social-mern.herokuapp.com/`)
       } else {
-        res.redirect(`http://localhost:3000/login`)
+        res.redirect(`https://practice-social-mern.herokuapp.com/login`)
       }
     }
   )
